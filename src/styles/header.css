@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+    /* altura do header e cores */
+    height: 8vh;
+    background-color: #004488;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.101);
+
+    /* Flex para alinhar os itens horizontalmente */
+    display: flex;
+
+    /* alinha verticalmente ao centro */
+    align-items: center;
+
+}
+
+  /* Menu: lista horizontal usando flex */
+  .header-menu ul {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* espaço entre os itens */
+    gap: 20px; 
+  
+  }
