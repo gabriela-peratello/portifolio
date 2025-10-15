@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+.content-banda{
+    display: flex;
+}
+
+.titulo{
+    color: brown;
+    font-family: "Abril Fatface", serif;
+    align-items: center;
+}
+
+.p{
+    justify-content: flex-start;
+}
+
+.paragrafo_texto_01 figure img{
+    width: 50px;
+}
+
+.paragrafo_texto_02 figure img{
+    width: 50px;
+}
+
