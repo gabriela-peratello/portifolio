@@ -1,4 +1,16 @@
 body {
-    background-color: #47938D;
+    background-color: #f3e2c7;
     padding-top: 10vh;
+
+    /* background-image: url("../assets/fundo02.png");
+    background-size: cover;
+    /* cobre toda a tela */
+    /* background-repeat: no-repeat;
+    não repete a imagem */
+    /* background-position: center; */
+    /* centraliza */
+    /* background-attachment: fixed; */
+    /* efeito "parallax" */
+    /* margin: 0;
+    padding: 0; */ 
 }

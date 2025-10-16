@@ -16,10 +16,13 @@
     
 }
 
-.paragrafo_texto_01 p,
 .paragrafo_texto_02 p {
     text-align: center;
     margin-top: 1rem;
+
+    color: white;
+
+    text-align: center;
 }
 
   
@@ -29,12 +32,18 @@
     width: 500px;
     border-radius: 20px;
     display: flex;
+    
 }
 
-.paragrafo_texto_01{
+.paragrafo_texto_01 {
     display: flex;
     flex-direction: row;
-    
+    align-items: center;
+    gap: 2rem;
+}
 
-    font-family: "Abril Fatface", serif;
+.paragrafo_texto_01 p {
+    flex: 1; /* faz o p ocupar espaço proporcional */
+    text-align: justify; /* ou center, left, right */
+    color: white;
 }
