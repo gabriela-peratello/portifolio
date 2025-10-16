@@ -5,12 +5,14 @@
   justify-content: space-between;  /* distribui logo, menu, busca */
   padding: 0 2rem;
   height: 10vh;
-  background-color: #6d4335;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.101);
+  background-color: #457B7B;
+  box-shadow: 0 2px 5px rgba(49, 48, 48, 0.101);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+
+  z-index: 1000;
 }
 
 /* DENTRO DESSE CONTAINER, EDITE ESSA IMAGEM */
@@ -45,7 +47,7 @@
 
   user-select: none;
 
-  color: #CBBBA7;
+  color: #0e3d46;
 }
 
 .header-search {
@@ -55,9 +57,9 @@
 }
 
 .header-menu li:hover {
-  background-color: #523227;
-  color: #ffffff;
-  box-shadow: 0 4px 8px rgb(167, 114, 89);
+  background-color: #0B3037;
+  color: #4b7373;
+  box-shadow: 0 4px 8px rgb(137, 173, 169);
 }
 
 .header-search input {
@@ -68,11 +70,11 @@
   outline: none;
   transition: border-color 0.3s ease;
   width: 180px;
-  color: #000000;
+  color: #5e949b;
 }
 
 /* Efeito foco no campo de busca */
 .header-search input:focus {
-  border-color: #ffffff;
+  border-color: #5e949b;
   box-shadow: 0 0 8px #241e1e;
 }
