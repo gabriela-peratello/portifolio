@@ -1,43 +1,42 @@
-.content-banda {
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.content-serie {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
+
+  gap: 1rem;
   flex-wrap: wrap;
-  background-color: #fdf0dd; /* ou qualquer outra cor que quiser */
+
+  margin: 0;
+  padding: 2rem;
+
+  max-width: 40%;
+ 
+
 }
 
-.texto-serie {
-  flex: 1;
-  max-width: 600px;
-  color: #0B3037;
-}
+.titulo{
+  color: black;
+  font-family: "Playfair Display", serif;
 
-.texto-serie p {
-  margin-bottom: 1rem;
   text-align: justify;
-  font-family: "Cabin", sans-serif;
-  color: #0B3037;
 }
 
-.texto-serie strong {
-  color: #1e0bf3; /* azul para dar destaque */
+.titulo em{
+  color: #701313;
 }
 
-.texto-serie em {
-  font-style: italic;
-  color: #7a42d8;
-}
+.sobre-serie{
+  color: #701313;
+  background-color: #fdf0dd; 
 
-.imagem-serie {
-  flex: 1;
-  max-width: 600px;
-}
+  padding: 30px;
+  border-radius: 15px;
+  line-height: 2;
 
-.imagem-serie img {
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  text-align: justify;
+
+  
 }
