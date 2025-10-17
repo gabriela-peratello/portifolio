@@ -1,0 +1,21 @@
+footer {
+  position: relative;
+  background-color: #701313;
+  color: #fdf0dd;
+  padding: 1.5rem;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+footer span.destaque {
+  color: #f0c040;
+  font-weight: 700;
+}
+
+footer span.data {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  font-size: 0.8rem;
+  color: #ccc;
+}

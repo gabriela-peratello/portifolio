@@ -1,37 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
-
-
-.content-curiosodade{
-    
-    display: flex;
-    gap: 1rem; 
-   
-    justify-content: center;
-    
-    padding: 2px;
-    max-width: 40%;
+.content-curiosidade {
+  background-color: #fdf0dd;
+  color: #701313;
+  padding: 3rem 2rem;
+  font-family: "Playfair Display", serif;
+  line-height: 1.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
-
-.curiosidade01 p{
-    color: #ae1717;
-    background-color: #fdf0dd;
-
-    max-width: 40%;
-
-    padding: 30px;
-    border-radius: 15px;
-    line-height: 2;
+.curiosidade01 {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: justify;
 }
 
-.curiosidade02{
-    color: #ae1717;
-    background-color: #fdf0dd;
-
-    padding: 30px;
-    border-radius: 15px;
-    line-height: 2;
-    
-}
 

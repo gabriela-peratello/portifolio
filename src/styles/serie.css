@@ -5,40 +5,34 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start; 
-  
   gap: 2rem;
   padding: 3rem;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 .texto-e-titulo {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   flex: 1;
   max-width: 700px;
 }
 
-/* Seletor corrigido para refletir a classe .texto-e-titulo */
-.texto-e-titulo h1 { 
+.texto-e-titulo h1 {
   color: black;
   font-family: "Playfair Display", serif;
-
   text-align: center;
 }
 
-/* Seletor corrigido */
-.texto-e-titulo h1 em { 
+.texto-e-titulo h1 em {
   color: #701313;
 }
 
 .sobre-serie {
   color: #701313;
   background-color: #fdf0dd;
-
   padding: 30px;
   border-radius: 15px;
   line-height: 1.8;
-  
   text-align: left;
 }
 
@@ -50,12 +44,10 @@
   max-width: 400px;
 }
 
-/* Largura ajustada para 100% para não quebrar o layout */
 .imagem01 img,
 .imagem02 img {
   display: block;
   border-radius: 20px;
-
-  width: 100%; /* Ajustado de 180% para 100% */
+  width: 100%;
   height: auto;
 }
