@@ -1,5 +1,37 @@
-.content-curiosidade{
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+.content-curiosodade{
+    
     display: flex;
-    flex-direction: column;
+    gap: 1rem; 
+   
+    justify-content: center;
+    
+    padding: 2px;
+    max-width: 40%;
+}
+
+
+.curiosidade01 p{
+    color: #ae1717;
+    background-color: #fdf0dd;
+
+    max-width: 40%;
+
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 2;
+}
+
+.curiosidade02{
+    color: #ae1717;
+    background-color: #fdf0dd;
+
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 2;
     
 }
+

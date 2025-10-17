@@ -3,40 +3,59 @@
 .content-serie {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-  gap: 1rem;
-  flex-wrap: wrap;
-
-  margin: 0;
-  padding: 2rem;
-
-  max-width: 40%;
- 
-
+  align-items: flex-start;
+  justify-content: flex-start; 
+  
+  gap: 2rem;
+  padding: 3rem;
+  box-sizing: border-box
 }
 
-.titulo{
+.texto-e-titulo {
+  display: flex;
+  flex-direction: column; 
+  flex: 1;
+  max-width: 700px;
+}
+
+/* Seletor corrigido para refletir a classe .texto-e-titulo */
+.texto-e-titulo h1 { 
   color: black;
   font-family: "Playfair Display", serif;
 
-  text-align: justify;
+  text-align: center;
 }
 
-.titulo em{
+/* Seletor corrigido */
+.texto-e-titulo h1 em { 
   color: #701313;
 }
 
-.sobre-serie{
+.sobre-serie {
   color: #701313;
-  background-color: #fdf0dd; 
+  background-color: #fdf0dd;
 
   padding: 30px;
   border-radius: 15px;
-  line-height: 2;
-
-  text-align: justify;
-
+  line-height: 1.8;
   
+  text-align: left;
+}
+
+.imagens {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 0 0 350px;
+  max-width: 400px;
+}
+
+/* Largura ajustada para 100% para não quebrar o layout */
+.imagem01 img,
+.imagem02 img {
+  display: block;
+  border-radius: 20px;
+
+  width: 100%; /* Ajustado de 180% para 100% */
+  height: auto;
 }
